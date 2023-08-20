@@ -88,3 +88,8 @@
     margin-bottom: 10px;
     width: 100%;
   }
+  #image{
+    border-radius: 50px;
+    height: 3vw;
+    width: 3vw;
+  }

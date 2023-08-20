@@ -23,6 +23,7 @@ const data = [
     status: 'Inactive',
     selected: false // Add the selected property
   },
+  
 ];
 
 const TableComponent = () => {
@@ -92,7 +93,7 @@ const TableComponent = () => {
                   onChange={() => handleCheckboxChange(index)}
                 />
               </td>
-              <td><img src={item.image} alt='image'/></td>
+              <td><img id='image' src={item.image} alt='image'/></td>
               <td>{item.name}</td>
               <td>{item.email}</td>
               <td>{item.phone}</td>
