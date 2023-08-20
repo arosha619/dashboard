@@ -3,14 +3,14 @@ import { personsImgs } from "../utils/images";
 
 export const navigationLinks = [
     { id: 1, title: 'Home', image: iconsImgs.home },
-    { id: 2, title: 'sample', image: iconsImgs.budget },
-    { id: 3, title: 'sample', image: iconsImgs.plane },
-    { id: 4, title: 'sample', image: iconsImgs.wallet },
-    { id: 5, title: 'sample', image: iconsImgs.bills },
-    { id: 6, title: 'sample', image: iconsImgs.report },
-    { id: 7, title: 'sample', image: iconsImgs.wallet },
-    { id: 8, title: 'sample', image: iconsImgs.wealth },
-    { id: 9, title: 'sample', image: iconsImgs.user },
+    { id: 2, title: 'User List', image: iconsImgs.budget },
+    // { id: 3, title: 'sample', image: iconsImgs.plane },
+    // { id: 4, title: 'sample', image: iconsImgs.wallet },
+    // { id: 5, title: 'sample', image: iconsImgs.bills },
+    // { id: 6, title: 'sample', image: iconsImgs.report },
+    // { id: 7, title: 'sample', image: iconsImgs.wallet },
+    // { id: 8, title: 'sample', image: iconsImgs.wealth },
+    // { id: 9, title: 'sample', image: iconsImgs.user },
     { id: 10, title: 'Settings', image: iconsImgs.gears }
 ];
 

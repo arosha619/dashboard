@@ -89,7 +89,7 @@
     }
   }
   
-  @media screen and (max-width: 1800px) {
+  @media screen and (max-width: 1200px) {
     .sidebar {
       width: 72px;
       padding-left: 12px;
