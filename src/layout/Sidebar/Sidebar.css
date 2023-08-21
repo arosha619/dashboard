@@ -75,6 +75,7 @@
 }
 .nav-link:hover {
   border: 1px solid var(--clr-primar-light);
+  background-color: rgb(204, 163, 0);
 }
 .nav-link.active {
   background-color:rgb(204, 163, 0);
