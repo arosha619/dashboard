@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
+import logo from "../../assets/images/micqui_logo.jpg"
+
 
 const Login = ({ setIsLoggedIn }) => {
   const [username, setUsername] = useState("");
@@ -54,11 +56,13 @@ const Login = ({ setIsLoggedIn }) => {
     );
 
   return (
+ 
     <div className="Container">
+    <img className="logo" src={logo} alt="logo"/>
       <h1 className="title">Sign In</h1>
-      <p className="subtitle">
+      {/* <p  className="subtitle">
         Please log in using your username and password!
-      </p>
+      </p> */}
       <form onSubmit={handleSubmit}>
         <div className="inputs_container">
           <input
@@ -87,6 +91,7 @@ const Login = ({ setIsLoggedIn }) => {
       </div>
 
     </div>
+   
   );
 };
 
